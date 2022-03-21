@@ -23,7 +23,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "emr/omnipay-gvp": "~3.0"
+        "okyayaykut/omnipay-gvp": "~3.0"
     }
 }
 ```
@@ -87,8 +87,8 @@ PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of
                     'expiryMonth'   => '06',
                     'expiryYear'    => '2017',
                     'cvv'           => '959',
-                    'fistname'      => 'Yasin',
-                    'lastname'      => 'Kuyu'
+                    'fistname'      => 'Aykut',
+                    'lastname'      => 'OKYAY'
                 ];
 
                 $response = $gateway->purchase(
@@ -153,25 +153,6 @@ PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of
 
         }
 
-## Postnet
-Posnet (Yapı Kredi, Vakıfbank, Anadolubank) gateway for Omnipay payment processing library
-https://github.com/yasinkuyu/omnipay-posnet
-
-## NestPay (EST)
-(İş Bankası, Akbank, Finansbank, Denizbank, Kuveytturk, Halkbank, Anadolubank, ING Bank, Citibank, Cardplus) gateway for Omnipay payment processing library
-https://github.com/yasinkuyu/omnipay-nestpay
-
-## Iyzico
-Iyzico gateway for Omnipay payment processing library
-https://github.com/yasinkuyu/omnipay-iyzico
-
-## BKM Express
-BKM Express gateway for Omnipay payment processing library
-https://github.com/yasinkuyu/omnipay-bkm
-
-## Paratika
-Paratika (Asseco) (Akbank, TEB, Halkbank, Finansbank, İş Bankası, Şekerbank, Vakıfbank ) gateway for Omnipay payment processing library
-https://github.com/yasinkuyu/omnipay-paratika
 
 ## Support
 
@@ -182,5 +163,5 @@ If you are having general issues with Omnipay, we suggest posting on
 If you want to keep up to date with release anouncements, discuss ideas for the project, or ask more detailed questions, there is also a [mailing list](https://groups.google.com/forum/#!forum/omnipay) which
 you can subscribe to.
 
-If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/emr/omnipay-gvp/issues),
+If you believe you have found a bug, please report it using the [GitHub issue tracker](https://github.com/okyayaykut/omnipay-gvp/issues),
 or better yet, fork the library and submit a pull request.
