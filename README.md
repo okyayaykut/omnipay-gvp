@@ -4,10 +4,10 @@
 
 
 <!-- TODO: Update the tags when the library is published -->
-[![Latest Stable Version](https://poser.pugx.org/yasinkuyu/omnipay-gvp/v/stable)](https://packagist.org/packages/yasinkuyu/omnipay-gvp) 
-[![Total Downloads](https://poser.pugx.org/yasinkuyu/omnipay-gvp/downloads)](https://packagist.org/packages/yasinkuyu/omnipay-gvp) 
-[![Latest Unstable Version](https://poser.pugx.org/yasinkuyu/omnipay-gvp/v/unstable)](https://packagist.org/packages/yasinkuyu/omnipay-gvp) 
-[![License](https://poser.pugx.org/yasinkuyu/omnipay-gvp/license)](https://packagist.org/packages/yasinkuyu/omnipay-gvp)
+[![Latest Stable Version](https://poser.pugx.org/okyayaykut/omnipay-gvp/v/stable)](https://packagist.org/packages/okyayaykut/omnipay-gvp) 
+[![Total Downloads](https://poser.pugx.org/okyayaykut/omnipay-gvp/downloads)](https://packagist.org/packages/okyayaykut/omnipay-gvp) 
+[![Latest Unstable Version](https://poser.pugx.org/okyayaykut/omnipay-gvp/v/unstable)](https://packagist.org/packages/okyayaykut/omnipay-gvp) 
+[![License](https://poser.pugx.org/okyayaykut/omnipay-gvp/license)](https://packagist.org/packages/okyayaykut/omnipay-gvp)
 
 [Omnipay](https://github.com/thephpleague/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+. This package implements Gvp (Turkish Payment Gateways) support for Omnipay.
@@ -16,6 +16,9 @@ processing library for PHP 5.3+. This package implements Gvp (Turkish Payment Ga
 Gvp (Garanti, Denizbank, TEB, ING, Şekerbank, TFKB) sanal pos hizmeti için omnipay kütüphanesi.
 
 ## Installation
+
+    composer require okyayaykut/omnipay-gvp
+
 
 Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
 to your `composer.json` file:
@@ -86,9 +89,7 @@ PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of
                     'number'        => '4824894728063019',
                     'expiryMonth'   => '06',
                     'expiryYear'    => '2017',
-                    'cvv'           => '959',
-                    'fistname'      => 'Aykut',
-                    'lastname'      => 'OKYAY'
+                    'cvv'           => '959'
                 ];
 
                 $response = $gateway->purchase(
