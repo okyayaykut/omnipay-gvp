@@ -20,22 +20,6 @@ Gvp (Garanti, Denizbank, TEB, ING, Şekerbank, TFKB) sanal pos hizmeti için omn
     composer require okyayaykut/omnipay-gvp
 
 
-Omnipay is installed via [Composer](http://getcomposer.org/). To install, simply add it
-to your `composer.json` file:
-
-```json
-{
-    "require": {
-        "okyayaykut/omnipay-gvp": "~3.0"
-    }
-}
-```
-
-And run composer to update your dependencies:
-
-    $ curl -s http://getcomposer.org/installer | php
-    $ php composer.phar update
-
 ## Basic Usage
 
 The following gateways are provided by this package:
