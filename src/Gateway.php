@@ -156,4 +156,14 @@ class Gateway extends AbstractGateway
     {
         return $this->setParameter('orderid', $value);
     }
+    
+        public function getClientIp()
+    {
+        return $this->getParameter('clientIp');
+    }
+
+    public function setClientIp($value)
+    {
+        return $this->setParameter('clientIp', $value);
+    }
 }
