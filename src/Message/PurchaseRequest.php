@@ -77,7 +77,7 @@ class PurchaseRequest extends AbstractRequest
         );
 
         $data['Customer'] = array(
-            'IPAddress' => '127.0.0.1', //$this->getClientIp(),
+            'IPAddress' => $this->getClientIp(),
             'EmailAddress' => $this->getCard()->getEmail(),
         );
 
