@@ -3,10 +3,10 @@
 namespace Omnipay\Gvp\Message;
 
 /**
- * Gvp Authorize Request
- * (c) Yasin Kuyu
- * 2015, insya.com
- * http://www.github.com/yasinkuyu/omnipay-gvp
+ * Gvp Gateway
+ * (c) Aykut OKYAY
+ * 2022, aykutokyay.com.tr
+ * http://www.github.com/okyayaykut/omnipay-gvp
  */
 class AuthorizeRequest extends PurchaseRequest
 {
