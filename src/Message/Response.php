@@ -11,10 +11,10 @@ use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamInterface;
 
 /**
- * Gvp Response
- * (c) Yasin Kuyu
- * 2015, insya.com
- * http://www.github.com/yasinkuyu/omnipay-gvp
+ * Gvp Gateway
+ * (c) Aykut OKYAY
+ * 2022, aykutokyay.com.tr
+ * http://www.github.com/okyayaykut/omnipay-gvp
  */
 class Response extends AbstractResponse implements RedirectResponseInterface
 {
