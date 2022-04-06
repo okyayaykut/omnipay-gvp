@@ -4,9 +4,9 @@ use Omnipay\Tests\TestCase;
 
 /**
  * Gvp Gateway Refund RequestTest
- * (c) Yasin Kuyu
- * 2015, insya.com
- * http://www.github.com/yasinkuyu/omnipay-gvp
+ * (c) Aykut OKYAY
+ * 2022, aykutokyay.com.tr
+ * http://www.github.com/okyayaykut/omnipay-gvp
  */
 class RefundRequestTest extends TestCase
 {
